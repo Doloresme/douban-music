@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.tabBox{
+    width: 100%;
+    min-height: 400px;
+    margin-top:30px;
+}
+.tabBox .tabHeader{
+    font-size: 17px;
+    height: 35px;
+    width: 100%;
+    line-height: 35px;
+    margin-right: 10px;
+    color: #222;
+}
+.tabBox .tabHeader{
+    border-bottom: 2px solid #138A64;
+    margin-bottom : 20px;
+}
+.tabBox .tabHeader ul{
+    display: inline-block;
+}
+.tabBox .tabHeader ul li {
+    display: inline-block;
+}
+.tabBox .tabHeader li a{
+    color: #666;
+    font-size: 15px;
+}
+.tabBox .tabHeader li.active a{
+    color: #138A64;
+    font-weight: 700;
+}
+.tabBox .tabHeader li a:hover{
+    color: #138A64;
+    text-decoration: underline;
+}
+/* .tabBox .tabHeader li a::after{
+    content: "|";
+    color : black;
+} */
+.tabContent{
+    background-color: #eee;
+    display: none;
+}
+.tabContent.active{
+    display: block;
+}
+.tabContent .imgBox{
+    width: 135px;
+    display: inline-block;
+    margin-left: 28px;
+}
+.tabContent .imgBox img{
+    width: 135px;
+    height: 135px;
+}
+.tabContent .singer, .song{
+    width: 135px;
+    display: inline-block;
+    text-align: center;
+    height: 18px;
+    line-height: 18px;
+    font-size: 17px;
+    margin-top: 5px; 
+    color: #666;
+}
+.tabContent .singer{
+    color: #138A64;
+    cursor:pointer;
+}
+.tabContent .singer:hover{
+    background-color: #138A64;
+    color: #fff;
+}
